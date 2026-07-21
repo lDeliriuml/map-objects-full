@@ -1,0 +1,7 @@
+# PostgreSQL
+node_modules/
+dist/
+.DS_Store
+
+# Backend env
+backend/.env

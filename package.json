@@ -1,0 +1,29 @@
+{
+  "name": "map-objects-full",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:backend dev:frontend",
+    "dev:frontend": "npm run dev -w frontend",
+    "dev:frontend:mock": "cross-env VITE_USE_MOCKS=true npm run dev -w frontend",
+    "dev:backend": "npm run dev -w backend",
+    "build:frontend": "npm run build -w frontend",
+    "start:backend": "npm run start -w backend",
+    "test:frontend": "npm run test -w frontend",
+    "test:backend": "npm run test -w backend",
+    "type-check": "npm run type-check -w frontend"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "npm-run-all2": "^9.0.2",
+    "typescript": "~6.0.0"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  }
+}
