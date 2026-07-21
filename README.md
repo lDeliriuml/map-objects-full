@@ -10,15 +10,15 @@
 
 ### Десктоп
 
-![Главная страница](screenshots/Start mof PC.JPG)
-![Добавление объекта](screenshots/Add object PC.JPG)
-![Выбор объекта](screenshots/Select object PC.JPG)
+![Главная страница](screenshots/start-mof-pc.jpg)
+![Добавление объекта](screenshots/add-object-pc.jpg)
+![Выбор объекта](screenshots/select-object-pc.jpg)
 
 ### Мобильные устройства
 
-![Главная страница (моб.)](screenshots/Start mof Mobile.JPG)
-![Добавление объекта (моб.)](screenshots/Add object Mobile.JPG)
-![Выбор объекта (моб.)](screenshots/Select object Mobile.JPG)
+![Главная страница (моб.)](screenshots/start-mof-mobile.jpg)
+![Добавление объекта (моб.)](screenshots/add-object-mobile.jpg)
+![Выбор объекта (моб.)](screenshots/select-object-mobile.jpg)
 
 ## Технологии
 
